@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>7Tao</title>
+  </head>
+  <body>
+    
+      <%- include('./layout/header'); -%>
+    
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+          <img class="w-32 mt-9" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/sparkler.png?raw=true" alt="">
+          <p class="noto-tc-serif fs-3 my-3">會員登入</p>
+          <form>
+            <div class="mb-3 text-start">
+              <label for="account" class="noto-tc-sans fs-6">帳號</label>
+              <input type="email" class="form-control" id="account" placeholder="請輸入帳號">
+            </div>
+            <div class="mb-5 text-start">
+              <label for="password" class="noto-tc-sans fs-6">密碼</label>
+              <input type="password" class="form-control" id="password" placeholder="請輸入密碼">
+            </div>
+            
+            <button type="submit" class="btn btn-dark w-100 fs-5 noto-tc-sans">登入<i class="ms-1 icofont-double-right"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+      <%- include('./layout/footer'); -%>
+  
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

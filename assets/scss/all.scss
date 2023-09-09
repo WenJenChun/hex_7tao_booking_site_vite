@@ -7,7 +7,6 @@
 // 載入所有 BS 的 SCSS 
 @import "../../node_modules/bootstrap";
 //icon
-// ICON
 @import "../scss/icofont/icofont.min.css";
 
 // 自訂CSS
@@ -15,4 +14,5 @@
 @import './layout/header.scss';
 @import './layout/footer.scss';
 @import './pages/index.scss';
+@import './pages/order.scss';
 
