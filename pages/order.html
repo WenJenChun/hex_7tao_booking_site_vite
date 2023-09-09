@@ -9,24 +9,85 @@
   <body>
     
       <%- include('./layout/header'); -%>
-    
+
+      <!-- stepper -->
+    <div class="container py-0">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6 mx-auto">
+
+                <ul class="stepper mt-9 d-flex justify-content-between list-unstyled position-relative">
+                  <li class="stepper-item d-flex flex-column align-items-center">
+                    <p class="z-index-9 w-48 border border-dark bg-dark text-primary fs-5 d-flex justify-content-center align-items-center progress-box-active mb-0">1</p>
+                    <p class="fw-bold mb-0 mt-1">訂單確認</p>
+                  </li>
+                  <li class="d-flex flex-column align-items-center">
+                    <p class="w-48 border border-dark text-dark bg-base fs-5 d-flex justify-content-center align-items-center mb-0">2</p>
+                    <p class="fw-bold mb-0 mt-1">結帳付款</p>
+                  </li>
+                  <li class="stepper-item d-flex flex-column align-items-center">
+                    <p class="w-48 border border-dark text-dark fs-5 d-flex justify-content-center align-items-center mb-0">3</p>
+                    <p class="fw-bold mb-0 mt-1">訂單結果</p>
+                  </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="text-center mt-5">
+      <p class="fs-1">返老還童-制服聯誼</p>
+    </div>
+
+    <!-- content -->
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-4 text-center">
-          <img class="w-32 mt-9" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/sparkler.png?raw=true" alt="">
-          <p class="noto-tc-serif fs-3 my-3">會員登入</p>
+        <div class="col-md-6">
+          <hr class="border border-dark border-2 my-0">
+          <div class="d-flex justify-content-between my-2">
+            <p class="my-0">日期</p>
+            <p class="noto-tc-sans my-0">2023/5/12</p>
+          </div>
+          <hr class="border border-dark border-1 my-0">
+          <div class="d-flex justify-content-between my-2">
+            <p class="my-0">票種</p>
+            <p class="noto-tc-sans my-0">改頭換面票（含大改造）</p>
+          </div>
+          <hr class="border border-dark border-1 my-0">
+          <div class="d-flex justify-content-between my-2">
+            <p class="my-0">票價</p>
+            <p class="noto-tc-sans my-0">$8000</p>
+          </div>
+          <hr class="border border-dark border-1 my-0">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+
+          <!-- 聯絡人資料 -->
+          <img class="w-32 mt-7" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/sparkler.png?raw=true" alt="">
+          <p class="noto-tc-serif fs-4 my-3">聯絡人資料</p>
           <form>
             <div class="mb-3 text-start">
-              <label for="account" class="noto-tc-sans fs-6">帳號</label>
-              <input type="email" class="form-control" id="account" placeholder="請輸入帳號">
+              <label for="name" class="noto-tc-sans fs-6">聯絡人姓名</label>
+              <input type="text" class="form-control" id="name" placeholder="請輸入聯絡人名稱">
+            </div>
+            <div class="mb-3 text-start">
+              <label for="account" class="noto-tc-sans fs-6">Email</label>
+              <input type="email" class="form-control" id="account" placeholder="請輸入Email">
             </div>
             <div class="mb-5 text-start">
-              <label for="password" class="noto-tc-sans fs-6">密碼</label>
-              <input type="password" class="form-control" id="password" placeholder="請輸入密碼">
+              <label for="password" class="noto-tc-sans fs-6">手機</label>
+              <input type="password" class="form-control" id="password" placeholder="請輸入手機號碼">
             </div>
             
-            <button type="submit" class="btn btn-dark w-100 fs-5 noto-tc-sans">登入<i class="ms-1 icofont-double-right"></i></button>
+            <button type="submit" class="btn btn-dark w-100 fs-5 noto-tc-sans">確認表單資料<i class="ms-1 icofont-double-right"></i></button>
           </form>
+          <a href="" class="text-secondary text-center noto-tc-sans mt-4 mb-9 d-block">取消購票 </a>
+        
         </div>
       </div>
     </div>

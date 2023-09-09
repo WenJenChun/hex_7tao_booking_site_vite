@@ -7,34 +7,11 @@
 .w-32{
 	width: 32px;
 }
-// nav{
-// 	display: flex;
-// 	justify-content: space-between;
-// 	padding-top: 16px;
-// 	padding-bottom: 16px;
-// }
 
+li a:hover{
+	color: #9C9E18;
+}
 
-
-// .nav-list{
-// 	display: flex;
-// 	align-items: center;
-// }
-
-// .nav-item{
-// 	margin-right: 64px;
-
-//   a{
-//     text-decoration: none;
-//     font-size: 20px;
-//     line-height: 30px;
-//     font-weight: 400;
-//   }
-// }
-
-// .nav-item:last-child{
-// 	margin-right: 0px;
-// }
 
 /* phone */
 @media(max-width: 767px){
