@@ -1,6 +1,7 @@
 # 網頁切版直播班 Vite 範例
 This project is to combine Bootstrap into Vite and customize Bootstrap5 style
-  - https://wenjenchun.github.io/hex_7tao_booking_site_vite/
+  - https://wenjenchun.github.io/hex_7tao_booking_site_vite/index.html
+  - https://wenjenchun.github.io/hex_7tao_booking_site_vite/order.html
 
 ## Node.js 版本
   - 專案的 Node.js 版本需為 v16 以上
