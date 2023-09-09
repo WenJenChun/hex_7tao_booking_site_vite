@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>7Tao</title>
+    <script type="module" crossorigin src="/hex_7tao_booking_site_vite/assets/bootstrap.min-b040dc53.js"></script>
+    <link rel="stylesheet" href="/hex_7tao_booking_site_vite/assets/bootstrap-ff084aa5.css">
+  </head>
+  <body>
+    
+      <nav class="navbar navbar-expand-md navbar-light border-bottom border-dark border-2">
+    <div class="container">
+
+      <!-- md 以上: logo - 7tao - search - 兩個 icon
+      以下: logo - search - hamberger -->
+
+      <!-- logo -->
+      <a class="navbar-brand d-flex align-items-center me-md-7" href="#">
+        <img class="me-3 logo img-fluid" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/logo.png?raw=true" alt="">
+        <h2 class="fs-2 me-1 mb-0 d-none d-md-block">7TAO</h2>
+        <p class="noto-tc-serif mb-0 d-none d-md-block">活動售票網</p>
+      </a>
+
+      <!-- search 探索活動 -->
+      
+      <form class="d-flex me-auto">
+        <input class="form-control border-dark" type="search" placeholder="探索活動" aria-label="Search">
+        <button class="btn btn-dark" type="submit"><i class="icofont-search-1 text-primary"></i></button>
+      </form>
+        
+      <!-- hamberger menu btn-->
+      <button class="navbar-toggler border-dark rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="border-top border-dark border-2 mt-2 border-md-0"></div>
+        <ul class="navbar-nav mt-2 mb-2 mb-lg-0 ms-auto">
+            <li class="nav-item me-md-3">
+                <a class="nav-link text-dark" href="#"><i class="icofont-ui-file me-1"></i>REGISTER</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#"><i class="icofont-ui-user me-1"></i>LOGIN</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+      <!-- stepper -->
+    <div class="container py-0">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6 mx-auto">
+
+                <ul class="stepper mt-9 d-flex justify-content-between list-unstyled position-relative">
+                  <li class="stepper-item d-flex flex-column align-items-center">
+                    <p class="z-index-9 w-48 border border-dark bg-dark text-primary fs-5 d-flex justify-content-center align-items-center progress-box-active mb-0">1</p>
+                    <p class="fw-bold mb-0 mt-1">訂單確認</p>
+                  </li>
+                  <li class="d-flex flex-column align-items-center">
+                    <p class="w-48 border border-dark text-dark bg-base fs-5 d-flex justify-content-center align-items-center mb-0">2</p>
+                    <p class="fw-bold mb-0 mt-1">結帳付款</p>
+                  </li>
+                  <li class="stepper-item d-flex flex-column align-items-center">
+                    <p class="w-48 border border-dark text-dark fs-5 d-flex justify-content-center align-items-center mb-0">3</p>
+                    <p class="fw-bold mb-0 mt-1">訂單結果</p>
+                  </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="text-center mt-5">
+      <p class="fs-1">返老還童-制服聯誼</p>
+    </div>
+
+    <!-- content -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <hr class="border border-dark border-2 my-0">
+          <div class="d-flex justify-content-between my-2">
+            <p class="my-0">日期</p>
+            <p class="noto-tc-sans my-0">2023/5/12</p>
+          </div>
+          <hr class="border border-dark border-1 my-0">
+          <div class="d-flex justify-content-between my-2">
+            <p class="my-0">票種</p>
+            <p class="noto-tc-sans my-0">改頭換面票（含大改造）</p>
+          </div>
+          <hr class="border border-dark border-1 my-0">
+          <div class="d-flex justify-content-between my-2">
+            <p class="my-0">票價</p>
+            <p class="noto-tc-sans my-0">$8000</p>
+          </div>
+          <hr class="border border-dark border-1 my-0">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+
+          <!-- 聯絡人資料 -->
+          <img class="w-32 mt-7" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/sparkler.png?raw=true" alt="">
+          <p class="noto-tc-serif fs-4 my-3">聯絡人資料</p>
+          <form>
+            <div class="mb-3 text-start">
+              <label for="name" class="noto-tc-sans fs-6">聯絡人姓名</label>
+              <input type="text" class="form-control" id="name" placeholder="請輸入聯絡人名稱">
+            </div>
+            <div class="mb-3 text-start">
+              <label for="account" class="noto-tc-sans fs-6">Email</label>
+              <input type="email" class="form-control" id="account" placeholder="請輸入Email">
+            </div>
+            <div class="mb-5 text-start">
+              <label for="password" class="noto-tc-sans fs-6">手機</label>
+              <input type="password" class="form-control" id="password" placeholder="請輸入手機號碼">
+            </div>
+            
+            <button type="submit" class="btn btn-dark w-100 fs-5 noto-tc-sans">確認表單資料<i class="ms-1 icofont-double-right"></i></button>
+          </form>
+          <a href="" class="text-secondary text-center noto-tc-sans mt-4 mb-9 d-block">取消購票 </a>
+        
+        </div>
+      </div>
+    </div>
+  
+      <footer class="border-top border-dark border-2 text-center fs-6 noto-tc-sans py-5">
+    © 7TAO七逃. All Rights Reserved
+</footer>  
+    
+  </body>
+</html>
