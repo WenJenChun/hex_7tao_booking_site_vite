@@ -1174,12 +1174,16 @@ $zindex-levels: (
 // Navs
 
 // scss-docs-start nav-variables
-$nav-link-padding-y:                .5rem !default;
+$nav-link-padding-y:                0 !default;
 $nav-link-padding-x:                1rem !default;
 $nav-link-font-size:                null !default;
 $nav-link-font-weight:              null !default;
-$nav-link-color:                    var(--#{$prefix}link-color) !default;
+// $nav-link-color:                    var(--#{$prefix}link-color) !default;
+$nav-link-color:                    red; //custom
+// $nav-link-hover-color:              var(--#{$prefix}link-hover-color) !default;
 $nav-link-hover-color:              var(--#{$prefix}link-hover-color) !default;
+$nav-link-hover-color:             green;
+
 $nav-link-transition:               color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out !default;
 $nav-link-disabled-color:           var(--#{$prefix}secondary-color) !default;
 $nav-link-focus-box-shadow:         $focus-ring-box-shadow !default;
